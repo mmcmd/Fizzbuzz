@@ -15,11 +15,11 @@ This was just an attempt to solve the issue described in [Tom Scott's video](htt
 Save the function to your memory (dot source it) in your terminal and then call it
 
 ```powershell
-PS > . ".\Invoke-Fizzbuzz.ps1"
+PS > . '.\Invoke-Fizzbuzz.ps1'
 PS > Invoke-Fizzbuzz -Range 100
 ```
 
 ```powershell
-PS > . ".\Invoke-Fizzbuzz.ps1"
+PS > . '.\Invoke-Fizzbuzz.ps1'
 PS > Invoke-Fizzbuzz -Range 20
 ```
